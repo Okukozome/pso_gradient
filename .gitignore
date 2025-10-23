@@ -1,0 +1,25 @@
+# --- 自定义 ---
+
+# 排除数据文件
+*.zip
+*.csv
+*.feather
+
+# --- 通用排除项 ---
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# PyCharm
+.idea/
+
+# 构建产物
+build/
+dist/
+*.egg-info/
